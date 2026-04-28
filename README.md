@@ -1,0 +1,45 @@
+# Workflow AI 薄工作流
+
+这是一个可复制的 AI 编程薄工作流模板仓库。
+
+唯一操作契约在 [AGENTS.md](AGENTS.md)。其他文件只解释如何阅读、复制和理解这份契约。
+
+## 适合谁
+
+- 已经在用 AI 编程代理，但不想让流程越来越重的人。
+- 想把规格、执行纪律、质量 gate 分清楚的人。
+- 想分享一份可以直接下载、阅读、合并的轻量 agent 规则的人。
+
+## 文件
+
+- [AGENTS.md](AGENTS.md): 唯一操作契约。
+- [docs/quickstart.md](docs/quickstart.md): 如何把它合并到自己的项目。
+- [docs/rationale.md](docs/rationale.md): 为什么保持薄。
+- [examples/](examples): 三个阅读示例。
+
+## 快速使用
+
+```bash
+git clone <repo-url>
+cd workflow-ai
+```
+
+阅读 [docs/quickstart.md](docs/quickstart.md)，然后手动把 [AGENTS.md](AGENTS.md) 中适合你的部分合并到自己的项目。
+
+## 可选工具映射
+
+这些只是常见实现，不是本仓库依赖：
+
+- OpenSpec 可以作为规格层实现。
+- Superpowers-like 技能可以作为执行层纪律。
+- gstack 可以作为 gate 层实现。
+
+如果你的团队已经有等价工具，保留角色分工即可。
+
+## 仓库边界
+
+本仓库不提供工具安装、自动化脚本、后台调度器或控制平面。
+
+## License
+
+MIT. See [LICENSE](LICENSE).
