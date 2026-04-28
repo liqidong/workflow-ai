@@ -1,6 +1,6 @@
 # Workflow AI 薄工作流
 
-这是一个可复制的 AI 编程薄工作流模板仓库。
+这是一个可复制的 AI 编程薄工作流模板仓库。它是文档和 agent 指令模板，不是可运行的工作流工具。
 
 唯一操作契约在 [AGENTS.md](AGENTS.md)。其他文件只解释如何阅读、复制和理解这份契约。
 
@@ -13,6 +13,8 @@
 ## 文件
 
 - [AGENTS.md](AGENTS.md): 唯一操作契约。
+- [CLAUDE.md](CLAUDE.md): Claude Code 兼容入口，只导入 `AGENTS.md`。
+- [GEMINI.md](GEMINI.md): Gemini CLI 兼容入口，只导入 `AGENTS.md`。
 - [docs/quickstart.md](docs/quickstart.md): 如何把它合并到自己的项目。
 - [docs/rationale.md](docs/rationale.md): 为什么保持薄。
 - [examples/](examples): 三个阅读示例。
@@ -20,7 +22,7 @@
 ## 快速使用
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/liqidong/workflow-ai.git
 cd workflow-ai
 ```
 
@@ -35,6 +37,16 @@ cd workflow-ai
 - gstack 可以作为 gate 层实现。
 
 如果你的团队已经有等价工具，保留角色分工即可。
+
+## Agent 识别
+
+| Agent / 工具 | 自动识别入口 |
+| --- | --- |
+| Codex、Copilot coding agent、Cursor、Cline、Windsurf 等支持 `AGENTS.md` 的工具 | `AGENTS.md` |
+| Claude Code | `CLAUDE.md`，只导入 `AGENTS.md` |
+| Gemini CLI | `GEMINI.md`，只导入 `AGENTS.md` |
+
+`AGENTS.md` 仍然是唯一操作契约，兼容入口不复制规则。
 
 ## 仓库边界
 

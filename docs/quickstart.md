@@ -5,13 +5,15 @@
 ## 1. Clone
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/liqidong/workflow-ai.git
 cd workflow-ai
 ```
 
 ## 2. 阅读操作契约
 
 打开 [AGENTS.md](../AGENTS.md)，先完整读一遍。
+
+如果使用 Claude Code 或 Gemini CLI，仓库根目录也提供了只导入 `AGENTS.md` 的兼容入口文件。
 
 ## 3. 合并到自己的项目
 
