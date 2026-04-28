@@ -35,6 +35,7 @@ cd workflow-ai
 - OpenSpec 可以作为规格层实现。
 - Superpowers-like 技能可以作为执行层纪律。
 - gstack 可以作为 gate 层实现。
+- self-improvement-like agent 可以作为事件驱动学习沉淀层，记录仍应进入项目已有的单一学习日志或知识库。
 
 如果你的团队已经有等价工具，保留角色分工即可。
 

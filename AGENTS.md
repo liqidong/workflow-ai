@@ -17,6 +17,13 @@
 - gate 按风险触发。只有任务需要时才使用产品、架构、设计、QA、安全或发布 gate。
 - 不创建互相竞争的设计文档、任务台账或状态系统。
 
+## Learning Capture
+
+- 学习沉淀是事件驱动记录层，不是 always-on gate。
+- 只有真实失败、用户纠正、重复 drift、或稳定的新流程改进出现时才记录。
+- 记录应进入项目已有的单一学习日志或知识库。
+- 学习记录不能成为第二套 source of truth，也不能阻塞当前 root-cause 修复。
+
 ## Route Modes
 
 非平凡任务先选择最小安全 route：
@@ -67,6 +74,7 @@ Route:
 Spec layer:
 Spec control surface:
 Gate:
+Learning capture: triggered only / n/a
 Problem kind:
 Risk level:
 Control surface:
