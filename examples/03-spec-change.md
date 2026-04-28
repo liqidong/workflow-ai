@@ -11,6 +11,7 @@ Route: full
 Spec layer: required
 Spec control surface: <change-id>
 Gate: design review only if UI interaction is non-trivial
+Learning capture: n/a
 Problem kind: none
 Risk level: medium
 Control surface: proposal / design / tasks
@@ -42,4 +43,4 @@ Non-goals:
 - [ ] Implement export action.
 - [ ] Add UI trigger if needed.
 - [ ] Run targeted tests.
-- [ ] Run checkpoint review if risk warrants it.
+- [ ] Run review if risk warrants it.

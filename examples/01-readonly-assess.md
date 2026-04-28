@@ -9,9 +9,13 @@
 ```text
 Route: assess
 Spec layer: skipped
+Spec control surface: n/a
 Gate: optional product review
+Learning capture: n/a
+Problem kind: none
 Risk level: low
 Control surface: existing docs and code
+Reason: read-only evaluation, no implementation requested
 Verification required: files inspected + uncertainty list
 ```
 

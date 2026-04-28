@@ -17,7 +17,7 @@
 - [GEMINI.md](GEMINI.md): Gemini CLI 兼容入口，只导入 `AGENTS.md`。
 - [docs/quickstart.md](docs/quickstart.md): 如何把它合并到自己的项目。
 - [docs/rationale.md](docs/rationale.md): 为什么保持薄。
-- [examples/](examples): 三个阅读示例。
+- [examples/](examples): 七个阅读示例，覆盖六个 route 和事件驱动学习沉淀。
 
 ## 快速使用
 
